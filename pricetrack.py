@@ -29,7 +29,7 @@ def product_details(required_price, product_url):
                 server.ehlo()
                 server.starttls()
                 server.ehlo()
-                server.login('shresthanishant011@gmail.com', 'uoxdjpwwvldoumuj')
+                server.login('email', 'password')
                 subject = "Price for you product has dropped"
                 body = f'title: {title} price: {actual_price}'
                 msg = f'Subject:{subject} \n\n {body}'
